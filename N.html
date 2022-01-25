@@ -1,0 +1,287 @@
+<div class="container content1">
+    <div class="main">
+        <div class="instruction">
+            <h1>Study</h1>
+            <h4>Key To Success </h4>
+        </div>
+        <div class="btn">
+            <button id="button" onclick="openlist()">Magic</button>
+        </div>
+    </div>
+</div>
+<div class="container" id="content2">
+    <div class="lists">
+        <ul>
+           
+            <li><a href="index.html" onclick="closelist()">HOME</a></li>
+            <li><a href="N.html" onclick="closelist()">NTSE</a></li>
+            <li><a href="class10.html" onclick="closelist()">Class-10</a></li>
+            <li><a href="https://vmkt.s3-ap-southeast-1.amazonaws.com/app_youtube_sprints/Best+Time+table+for+JEE+MAIN+Prepartions++_+Clear+JEE+MAIN+in+first+attempt.pdf" onclick="closelist()">JEE</a></li>
+            <li><a href="B.html" onclick="closelist()">BOOKS</a></li>
+            <li><a href="DICTIONARY.html" onclick="closelist()">DICTIONARY</a></li>
+            <li><a href="WEB.html" onclick="closelist()">WEB</a></li>
+        </ul>
+    </div>
+    <div class="mark">
+        <button id="cross" onclick="closelist()">
+            <span class="m1 m"></span>
+            <span class="m2 m"></span>
+        </button>
+    </div>
+</div>
+
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+margin: 0; padding: 0;
+box-sizing: border-box;
+font-family: 'Bebas Neue', cursive;
+user-select: none;
+}
+.content1{
+width: 100%; min-height: 100vh;
+display: flex; align-items: center;
+justify-content: center;
+background-color: yellowgreen;
+}
+.instruction h1{
+font-size: 100px;
+text-align: center;
+}
+.instruction h4{
+font-size: 40px;
+text-align: center;
+}
+.btn{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 15px 0;
+}
+#button{
+width: 200px; height: 50px;
+font-size: 20px;
+border: 3px solid black;
+background-color: black;
+transition: 0.1s linear;
+border-radius: 1000px;
+cursor: pointer;
+color: rgba(255,255,255,0.8);
+letter-spacing: 1px;
+}
+#button:hover{
+background-color: transparent;
+letter-spacing: 3px;
+transform: scale(1.1);
+text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+color: black;
+}
+#content2{
+width: 100%; min-height: 100vh;
+position: absolute; top: 0;
+left: -100%;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+transition: 0.4s linear;
+}
+a{
+text-decoration: none;
+color: rgba(255,255,255,0.5);
+font-size: 25px;
+letter-spacing: 2px;
+transition: 0.1s linear;
+}
+a:hover{
+color: rgba(255,255,255,0.8);
+}
+li{
+padding: 10px 0;
+list-style: none;
+}
+.m{
+width: 1px; height: 20px;
+background-color: white;
+}
+.m1{
+transform: rotate(45deg) translateX(0.5px);
+}
+.m2{
+transform: rotate(-45deg);
+}
+#cross{
+width: 30px; height: 30px;
+background-color: transparent;
+border: 1px solid transparent;
+display: flex;
+align-items: center;
+background-color: rgba(255,255,255,0.5); border-radius: 50%;
+justify-content: center;
+cursor: pointer;
+position: absolute;
+top: 40px; right: 40px;
+transition: 0.1s linear;
+}
+#cross:hover{
+background-color: rgba(255,255,255,0.2);
+}
+</style>
+
+<script>
+
+function openlist(){
+document.getElementById("content2").style.left = "0";
+document.getElementById("content2").style.opacity = "1";
+}
+function closelist(){
+document.getElementById("content2").style.left = "-100%";
+document.getElementById("content2").style.opacity = "0";
+}
+</script>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+<a href="https://www.youtube.com/playlist?list=PLAJfHGTj6RJ-PkbCKbnCgNjQycBDX5IzF" class="button">PHYSICS</a>
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+<a href="https://www.youtube.com/playlist?list=PLAJfHGTj6RJ96JqN4CS8RQU_zX66WK50K" class="button">CHEM</a>
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+<a href="https://www.youtube.com/watch?v=IYDd4W1ePGQ&list=PLVLoWQFkZbhUSTPP_0Ooj87MUy7QZ_588" class="button">MAT</a>
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+<a href="https://www.youtube.com/playlist?list=PLAJfHGTj6RJ9v9IxYK3YWn5ag9JmWufs0" class="button">MATHS</a>
+
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    
+<style>
+.button {
+  background-color: #00ccff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+<a href="https://www.youtube.com/watch?v=wit0_CjWfEs&list=PLVLoWQFkZbhU7zMxmkiuVW-IL9i5ufhby" class="button">BIO</a>
+
+
+</body>
+</html>
